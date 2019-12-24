@@ -27,8 +27,10 @@ cat filename
 2.分支与暂存区
  分支                             | 暂存区
  1> git commit -m "提交的注释"    | 1> git add filename
- 将缓存区内容提交至当前分支       | 将filename文件添加至暂存区
-                                  | 2> git checkout -- filename 
+ 将缓存区内容提交至当前分支       | 将filename文件更改内容添加暂存区
+                                  | 更改内容包括删除文件
+                                  | 2> git checkout -- filename
+                                  |    git checkout filename 
                                   | 将filename内容撤销至暂存区中filename内容相同
                                   |
                                   |
