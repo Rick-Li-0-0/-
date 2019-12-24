@@ -11,6 +11,17 @@ git init
 git status
 3.比较暂存区与工作区的差异
 git diff filename
+4.查看所有提交过的版本信息
+git log
+git log --pretty=oneline
+5.查看所有分支的所有操作记录
+git reflog
+6.回退版本
+git reset --hard head^
+git reset --hard head^^
+git reset --hard head~1
+git reset --hard head~100
+git reset --hard ef8cd
 2.工作区与暂存区
  1> git commit "提交的注释"       | 1> git add filename
  将缓存区内容提交至工作区         | 将filename文件添加至暂存区
