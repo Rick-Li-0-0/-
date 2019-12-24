@@ -21,7 +21,9 @@ git reset --hard head^
 git reset --hard head^^
 git reset --hard head~1
 git reset --hard head~100
-git reset --hard ef8cd
+git reset --hard 5b06dae
+7.查看文档内容
+cat filename
 2.工作区与暂存区
  1> git commit "提交的注释"       | 1> git add filename
  将缓存区内容提交至工作区         | 将filename文件添加至暂存区
