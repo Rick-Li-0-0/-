@@ -22,6 +22,7 @@ git diff filename
 4.查看所有提交过的版本信息
 git log
 git log --pretty=oneline
+git log --graph --pretty=oneline --abbrev-commit
 5.查看所有分支的所有操作记录
 git reflog
 6.回退版本
@@ -67,7 +68,10 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  创建并切换到名为dev的分支上      |
  7> git merge dev                 |
  将dev分支合并到当前分支上        |
- 此后将删除分支信息               |
+ 此后如果删除分支将丢失分支信息   |
+ 如在分支进行的提交操作           |
+ 8> git merge --no-ff -m "注" dev |
+ 禁用Fast forward模式来进行合并   |
 三.git概念
 1.工作区
 .git隐藏文件夹同级目录下的所有文件
