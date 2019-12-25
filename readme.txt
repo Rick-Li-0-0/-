@@ -52,7 +52,7 @@ cat filename
 9.从远程克隆一个本地库
 git clone https://github.com/Rick-Li-0-0/StudyGit.git
 将远程库克隆到当前目录下
-2.分支与暂存区
+10.分支与暂存区
  分支                             | 暂存区
  1> git commit -m "提交的注释"    | 1> git add filename
  将缓存区内容提交至当前分支       | 将filename文件更改内容添加暂存区
@@ -72,6 +72,8 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  如在分支进行的提交操作           |
  8> git merge --no-ff -m "注" dev |
  禁用Fast forward模式来进行合并   |
+11.暂时移除未提交的变化，稍后再移入（隐藏）
+git stash
 三.git概念
 1.工作区
 .git隐藏文件夹同级目录下的所有文件
