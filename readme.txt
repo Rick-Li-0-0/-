@@ -60,11 +60,12 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  3> git branch dev                |    git checkout filename 
  创建名为dev的分支                | 将filename内容撤销至暂存区中filename内容相同
  4> git checkout dev              | 可用于删除后恢复于修改后还原文件
- 切换到名为dev的分支上去          |
+ 切换到名为dev的分支上去          | 
  5> git checkout -b dev           |
  创建并切换到名为dev的分支上      |
                                   |
                                   |
+                                  进行分支冲突尝试
 三.git概念
 1.工作区
 .git隐藏文件夹同级目录下的所有文件
