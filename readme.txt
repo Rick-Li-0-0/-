@@ -72,8 +72,17 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  如在分支进行的提交操作           |
  8> git merge --no-ff -m "注" dev |
  禁用Fast forward模式来进行合并   |
-11.暂时移除未提交的变化，稍后再移入（隐藏）
-git stash
+11.暂时移出未提交的变化，稍后再移入（隐藏）
+ 1> git stash
+ 移出未提交的变化
+ 2> git stash list
+ 列出stash信息
+ 3> git stash pop
+ 恢复并删除stash内容
+ 4> git stash apply
+ 恢复移出的工作区
+ 5> git stash drop
+ 删除一条stash信息
 三.git概念
 1.工作区
 .git隐藏文件夹同级目录下的所有文件
