@@ -48,6 +48,9 @@ cat filename
  (-u 将本地的master分支推送到origin主机，并指定origin为默认主机
  之后可直接使用git push进行推送)
  4> 输入自己github账号与密码
+9.从远程克隆一个本地库
+git clone https://github.com/Rick-Li-0-0/StudyGit.git
+将远程库克隆到当前目录下
 2.分支与暂存区
  分支                             | 暂存区
  1> git commit -m "提交的注释"    | 1> git add filename
