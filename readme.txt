@@ -57,12 +57,12 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  将缓存区内容提交至当前分支       | 将filename文件更改内容添加暂存区
  2> git branch                    | 更改内容包括删除文件
  查看当前所有分支                 | 2> git checkout -- filename
-                                  |    git checkout filename 
-                                  | 将filename内容撤销至暂存区中filename内容相同
-                                  | 可用于删除后恢复于修改后还原文件
-                                  |
-                                  |
-                                  |
+ 3> git branch dev                |    git checkout filename 
+ 创建名为dev的分支                | 将filename内容撤销至暂存区中filename内容相同
+ 4> git checkout dev              | 可用于删除后恢复于修改后还原文件
+ 切换到名为dev的分支上去          |
+ 5> git checkout -b dev           |
+ 创建并切换到名为dev的分支上      |
                                   |
                                   |
 三.git概念
