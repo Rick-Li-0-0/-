@@ -45,7 +45,8 @@ cat filename
  git push origin master
  将本地master推送到远程
  -u 将本地master分支内容推送到远程新的master分支，并将本地和远程的master分支关联起来
- (-u 从简单教程上理解应该是第一次push时使用就好，之后可省略，未确定)
+ (-u 将本地的master分支推送到origin主机，并指定origin为默认主机
+ 之后可直接使用git push进行推送)
  4> 输入自己github账号与密码
 2.分支与暂存区
  分支                             | 暂存区
@@ -61,7 +62,6 @@ cat filename
                                   |
                                   |
                                   |
-test git push
 三.git概念
 1.工作区
 .git隐藏文件夹同级目录下的所有文件
