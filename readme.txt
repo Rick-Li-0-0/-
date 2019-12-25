@@ -83,9 +83,14 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  恢复移出的工作区
  5> git stash drop
  删除一条stash信息
+12.远程协助理解其意义但因为一个人懒得去测试了
+在git bash中解决复杂的冲突有点不理想，不是很理解其显示内容与带操作内容
+需要在看看怎么玩
+git gui 界面好像还挺好用的
+git提供的文档有点多没去读，以上内容抄自
+http://www.imooc.com/article/20411
 三.git概念
 1.工作区
 .git隐藏文件夹同级目录下的所有文件
 2.版本库
 .git文件夹。里面包含了很多信息，如暂存区，分支等信息。
-假如我在工作中
