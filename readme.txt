@@ -55,8 +55,8 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  分支                             | 暂存区
  1> git commit -m "提交的注释"    | 1> git add filename
  将缓存区内容提交至当前分支       | 将filename文件更改内容添加暂存区
-                                  | 更改内容包括删除文件
-                                  | 2> git checkout -- filename
+ 2> git branch                    | 更改内容包括删除文件
+ 查看当前所有分支                 | 2> git checkout -- filename
                                   |    git checkout filename 
                                   | 将filename内容撤销至暂存区中filename内容相同
                                   | 可用于删除后恢复于修改后还原文件
