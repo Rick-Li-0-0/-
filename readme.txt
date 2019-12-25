@@ -67,6 +67,7 @@ git clone https://github.com/Rick-Li-0-0/StudyGit.git
  创建并切换到名为dev的分支上      |
  7> git merge dev                 |
  将dev分支合并到当前分支上        |
+ 此后将删除分支信息               |
 三.git概念
 1.工作区
 .git隐藏文件夹同级目录下的所有文件
